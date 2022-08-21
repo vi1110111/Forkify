@@ -1,0 +1,35 @@
+{
+  "name": "18-forkify",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vi1110111/Forkify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vi1110111/Forkify/issues"
+  },
+  "homepage": "https://github.com/vi1110111/Forkify#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.7.0",
+    "parcel": "2.0.0",
+    "sass": "^1.54.4"
+  },
+  "dependencies": {
+    "core-js": "^3.24.1",
+    "fractional": "^1.0.0",
+    "fracty": "^1.0.9",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
